@@ -11,6 +11,10 @@ import styled from "styled-components";
 
 export const Headline = styled.h1`
   font-size: 40px;
+  transition: 0.6s;
+  @media (max-width: 620px) {
+    font-size: 30px;
+  }
 `;
 
 export const Header = styled.header`
@@ -20,6 +24,11 @@ export const Header = styled.header`
   align-items: center;
   background-color: #e5e5e5;
   box-shadow: 0 0 10px gray;
+  transition: 0.6s;
+  @media (max-width: 620px) {
+    color: #e5e5e5;
+    background-color: gray;
+  }
 `;
 
 export const Main = styled.main`
@@ -33,6 +42,14 @@ export const Wrapper = styled.div`
   background-color: #e5e5e5;
   box-shadow: 2px 2px 6px gray;
   margin: 3rem 4rem;
+  transition: 0.6s;
+  @media (max-width: 620px) {
+    margin: 0;
+    box-shadow: none;
+  }
+  @media (max-width: 500px) {
+    padding: 1rem 20px;
+  }
 `;
 
 export const List = styled.ul`
@@ -43,10 +60,10 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   font-size: 18px;
-  padding: 15px 0;
+  padding: 18px 0;
   border-bottom: 1px solid #c8c8c8;
   letter-spacing: 0.08em;
-  line-height: 22px;
+  line-height: 24px;
 `;
 
 export const Loading = styled.p`
