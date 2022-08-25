@@ -17,11 +17,16 @@ export const Header = styled.header`
   box-shadow: 0 0 10px gray;
   transition: 0.6s;
   cursor: pointer;
-  color: whitesmoke;
-  background-color: salmon;
-
+  background-color: #e5e5e5;
+  &:hover {
+    color: salmon;
+  }
   @media (max-width: 620px) {
-    background-color: #66bdff;
+    color: whitesmoke;
+    background-color: salmon;
+    &:hover {
+      color: whitesmoke;
+    }
   }
 `;
 
