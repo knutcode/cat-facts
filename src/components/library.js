@@ -9,14 +9,6 @@ import styled from "styled-components";
 //   border-radius: ${(props) => (props.rounded ? "10px" : "")};
 // `;
 
-export const Headline = styled.h1`
-  font-size: 40px;
-  transition: 0.6s;
-  @media (max-width: 620px) {
-    font-size: 30px;
-  }
-`;
-
 export const Header = styled.header`
   height: 80px;
   display: flex;
@@ -25,9 +17,20 @@ export const Header = styled.header`
   background-color: #e5e5e5;
   box-shadow: 0 0 10px gray;
   transition: 0.6s;
+  cursor: pointer;
+  color: #e5e5e5;
+  background-color: salmon;
+
   @media (max-width: 620px) {
-    color: #e5e5e5;
-    background-color: gray;
+    background-color: #66bdff;
+  }
+`;
+
+export const Headline = styled.h1`
+  font-size: 40px;
+  transition: 0.6s;
+  @media (max-width: 620px) {
+    font-size: 30px;
   }
 `;
 

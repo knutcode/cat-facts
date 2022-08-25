@@ -27,7 +27,7 @@ const MainContent = () => {
 
     return (
       <Main>
-        <Wrapper cat>
+        <Wrapper>
           <List>
             {catFact.map((catObj, i) => {
               return <ListItem key={i}>{catObj.fact}</ListItem>;
