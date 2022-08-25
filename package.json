@@ -1,7 +1,7 @@
 {
-  "name": "react-api",
+  "name": "cat-facts",
   "version": "0.1.0",
-  "homepage": "https://knutcode.github.io/react-api",
+  "homepage": "https://knutcode.github.io/cat-facts",
   "private": true,
   "dependencies": {
     "axios": "^0.27.2",
