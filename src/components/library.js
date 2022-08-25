@@ -14,11 +14,10 @@ export const Header = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e5e5e5;
   box-shadow: 0 0 10px gray;
   transition: 0.6s;
   cursor: pointer;
-  color: #e5e5e5;
+  color: whitesmoke;
   background-color: salmon;
 
   @media (max-width: 620px) {
