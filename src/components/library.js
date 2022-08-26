@@ -10,8 +10,9 @@ import styled from "styled-components";
 // `;
 
 export const Header = styled.header`
-  height: 80px;
+  height: 90px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px gray;
@@ -22,6 +23,7 @@ export const Header = styled.header`
     color: salmon;
   }
   @media (max-width: 620px) {
+    height: 80px;
     color: whitesmoke;
     background-color: salmon;
     &:hover {
@@ -31,6 +33,7 @@ export const Header = styled.header`
 `;
 
 export const Headline = styled.h1`
+  margin: 0;
   font-size: 40px;
   transition: 0.6s;
   @media (max-width: 620px) {

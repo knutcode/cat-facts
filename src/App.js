@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Header onClick={refresh}>
         <Headline>cat facts! (^・ω・^ )</Headline>
+        <small>click me for more facts!</small>
       </Header>
       <MainContent />
     </div>

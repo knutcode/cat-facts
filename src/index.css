@@ -13,3 +13,8 @@ button {
   font-family: inherit;
   color: inherit;
 }
+
+small {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
